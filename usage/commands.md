@@ -14,11 +14,11 @@ Aliases: `/sk`, `/skills`, `/skill`. Any command that says /sk works with all th
 
 ### XP Commands
 
-`/sk xp add [player] [skill] [amount]` - Gives Skill XP to a player in a certain skill
+`/sk xp add [player] [skill] [amount] (silent)` - Gives Skill XP to a player in a certain skill
 
-`/sk xp set [player] [skill] [amount]` - Sets a player's skill XP for a certain skill to an amount
+`/sk xp set [player] [skill] [amount] (silent)` - Sets a player's skill XP for a certain skill to an amount
 
-`/sk xp remove [player] [skill] [amount]` - Removes skill XP from a player in a certain skill
+`/sk xp remove [player] [skill] [amount] (silent)` - Removes skill XP from a player in a certain skill
 
 ### Leaderboard Commands
 
