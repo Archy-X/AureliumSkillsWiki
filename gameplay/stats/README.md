@@ -23,6 +23,7 @@ Health increases the max HP of the player.
   * Changed through config option "health.hp-indicator-scaling"
   * HP Indicator Scaling is the amount the player's raw attribute health should be multiplied by to get the displayed HP on the action bar.
   * The default value of 5 makes it so that 20.0 raw HP = 100 Displayed Action Bar HP
+* See the [Health page](https://wiki.aurelium.dev/skills/stats/health) for more detailed information
 
 ## **Strength**
 
@@ -46,7 +47,7 @@ Toughness decreases the damage dealt by enemy attacks
 
 ## **Regeneration**
 
-Regeneration increases natural regeneration rate
+Regeneration increases the natural regeneration rate
 
 * Two options: _Vanilla_ or _Custom_
 * **Vanilla**
@@ -78,7 +79,7 @@ Regeneration increases natural regeneration rate
 
 ## **Luck**
 
-Increase Luck effect and chance for double drops
+Increase Luck attribute \(better chest and fishing loot\) and chance for double drops
 
 * Modifies Attribute.GENERIC\_LUCK
 * `Luck = Stat.LUCK * Setting.LUCK_MODIFIER`

@@ -22,7 +22,9 @@ patterns:
     value: 1.5
 ```
 
-Pay attention to the spacing between the hyphen and the previous section, which should be the same amount of space as a regular sub-section. In the example, a regular indentation is 2 spaces. Therefore, the space between the start of your map list values compared to the previous section name should be double the space between normal sub-sections \(4 spaces\).
+{% hint style="warning" %}
+Pay attention to the spacing between the hyphen and the previous section. In the example, a regular indentation is 2 spaces. Therefore, the space from the start of your map list values \(type, stat, value\) compared to the previous section name \(patterns\) should be 4 spaces.
+{% endhint %}
 
 ## File Structure
 
@@ -73,7 +75,9 @@ Example:
   value: 1
 ```
 
-Want to remove the default stat rewards? You can do so by making the patterns section empty using `patterns: []`. However, you may need to adjust menu message newlines in the messages file to remove extra spaces when there are no stat rewards.
+{% hint style="info" %}
+**Want to remove the default stat rewards?** You can do so by making the patterns section empty using `patterns: []`. However, you may need to adjust menu message newlines in the messages file to remove extra spaces when there are no stat rewards.
+{% endhint %}
 
 ### Command Rewards \(`command`\)
 

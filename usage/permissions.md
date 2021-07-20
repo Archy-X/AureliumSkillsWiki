@@ -1,6 +1,6 @@
 # Permissions
 
-**The most up to date list of permissions is the plugin.yml file viewed** [**here**](https://github.com/Archy-X/AureliumSkills/blob/master/src/main/resources/plugin.yml)**.**
+**The most up-to-date list of permissions is the plugin.yml file viewed** [**here**](https://github.com/Archy-X/AureliumSkills/blob/master/src/main/resources/plugin.yml)**.**
 
 Default value meanings:
 

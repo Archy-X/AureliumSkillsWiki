@@ -31,7 +31,9 @@ sources:
 
 ## Custom Mobs
 
-**Note: Custom Mobs and MythicMobs support has been removed since Beta 1.1.1, see update changelog for more info.**
+{% hint style="danger" %}
+**Custom Mobs and MythicMobs support has been removed since Beta 1.1.1, see the** [**update changelog**](https://www.spigotmc.org/resources/81069/update?update=408943) **for more info.**
+{% endhint %}
 
 The sources config supports custom mobs for Fighting and Archery using MythicMobs.
 
