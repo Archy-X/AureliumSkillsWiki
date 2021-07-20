@@ -16,7 +16,7 @@ The placeholders that Aurelium Skills currently has, no need for an ecloud expan
 * `%aureliumskills_hp_percent%` - Percent hp as an integer
 * `%aureliumskills_mana%` - Current player mana
 * `%aureliumskills_mana_int%` - Mana of a player rounded to an integer  
-* %aureliumskills\_mana\_max% - Max mana
+* `%aureliumskills_mana_max%` - Max mana
 * `%aureliumskills_mana_max_int%` - Max mana rounded to an integer
 * `%aureliumskills_lb_power_[place]%` - Gets a formatted value of username and level for the power leaderboard at a certain place
 * `%aureliumskills_lb_power_[place]_name%` - Gets the username for the power leaderboard at a certain place
