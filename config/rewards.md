@@ -200,5 +200,3 @@ Money reward messages are automatically handled through the `menus.level_progres
 
 Still confused or syntax not working? Try looking over the [example rewards file](https://github.com/Archy-X/AureliumSkills/blob/master/src/main/resources/rewards/example_rewards.yml)
 
-Another explanation can also be found in the plugin [changelog](https://github.com/Archy-X/AureliumSkills/blob/master/Changelog.txt#L13)
-
