@@ -135,6 +135,15 @@ Command loot keys:
 * `executor` - Who should execute the command, either console or player \(defaults to console\)
 * `command` - The command without the beginning /, supports {player} placeholder and all PlaceholderAPI placeholders
 
+Example:
+
+```text
+- type: command
+  weight: 10
+  executor: console
+  command: say hi
+```
+
 ## Loot Selection
 
 The way loot is selected is fairly straightforward:
