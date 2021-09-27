@@ -10,6 +10,7 @@
 * [Loot](config/loot.md)
 * [Sources](config/sources.md)
 * [Abilities](config/abilities.md)
+* [Multipliers](config/multipliers.md)
 
 ## Gameplay
 
