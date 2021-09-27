@@ -10,7 +10,6 @@
 * [Loot](config/loot.md)
 * [Sources](config/sources.md)
 * [Abilities](config/abilities.md)
-* [Multipliers](config/multipliers.md)
 
 ## Gameplay
 
@@ -18,6 +17,7 @@
   * [Health](gameplay/stats/health.md)
 * [Stat Modifiers](gameplay/stat-modifiers.md)
 * [Mana Abilities](gameplay/mana-abilities.md)
+* [Multipliers](gameplay/multipliers.md)
 
 ## Usage
 
