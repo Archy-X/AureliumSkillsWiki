@@ -14,8 +14,8 @@
 ## Gameplay
 
 * [Stats](gameplay/stats/README.md)
+  * [Stat Modifiers](gameplay/stats/stat-modifiers.md)
   * [Health](gameplay/stats/health.md)
-* [Stat Modifiers](gameplay/stat-modifiers.md)
 * [Mana Abilities](gameplay/mana-abilities.md)
 * [Multipliers](gameplay/multipliers.md)
 
