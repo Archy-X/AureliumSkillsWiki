@@ -45,3 +45,35 @@ The commands used to interact with them are:
 * `/sk armor modifier list` - Lists all item armor modifiers on the item held
 * `/sk armor modifier removeall` - Removes all armor stat modifiers from the item held
 
+## NBT Tags
+
+{% hint style="warning" %}
+The following info is for advanced users with prior knowledge about the NBT format
+{% endhint %}
+
+The following is the NBT tag structure used for item and armor modifiers. It can be used in places such as the give command to create items with modifiers already added.
+
+```text
+{AureliumSkills: {Modifiers: {[Type]: {[Skill]: [value]}}}}
+```
+
+Replace \[Type\] with either Armor for armor modifiers or Item for item modifiers. Replace \[Skill\] with the name of the skill with first letter capitalized \(e.g. Health\). Replace \[value\] with the value of the modifier \(a number\).
+
+Full example of a Health item modifier with value 100:
+
+```text
+{AureliumSkills: {Modifiers: {Item: {Health: 100}}}}
+```
+
+Multiple modifiers can also be used:
+
+```text
+{AureliumSkills: {Modifiers: {Item: {Health: 100, Luck: 50}}}}
+```
+
+Both item and armor modifiers can be used on the same item:
+
+```text
+{AureliumSkills: {Modifiers: {Item: {Health: 100}, Armor: {Wisdom: 10}}}}
+```
+
