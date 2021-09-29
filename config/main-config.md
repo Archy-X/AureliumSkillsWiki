@@ -99,8 +99,6 @@ Last Updated Version: `Beta 1.1.4`
 
 ## **Gameplay**
 
-`skill-level-requirements-multiplier` - Changes the equation that calculates xp level requirements; defaults to 100 \(`XpRequired = Multiplier * (level - 2) ^ 2 + 100`\)
-
 `enable-skill-commands` - Whether skill name commands should be enabled such as `/farming` or `/mining` \(Requires restart to have an effect\)
 
 `check-block-replace` - Whether blocks placed by players should not give xp; keep `true` unless you are having plugin compatibility issues
@@ -159,6 +157,7 @@ Last Updated Version: `Beta 1.1.4`
 
 `requirement:`
 
+* `enabled` - Whether requirements should be checked at all. If you do not use requirements, disabling will improve performance.
 * `item:`
   * `prevent-tool-use` - Whether block breaking should be blocked when a player does not meet a requirement
   * `prevent-weapon-use` - Whether attacking entities should be blocked when a player does not meet a requirement
@@ -197,6 +196,7 @@ Last Updated Version: `Beta 1.1.4`
 * `enabled` - Whether this skill should be enabled. Disabled skills will be invisible from menus and unable to be leveled. The abilities and mana abilities of disabled skills will not work.
 * `max-level` - The max level obtainable naturally for this skill
 * `check-cancelled` - An option on most skills that controls whether block break events should be checked for cancellation \(only disable if there are plugin compatibility issues\)
+* `check-multiplier-permissions` - Whether to check for permission based XP multipliers when a player gains XP in a skill. If you do not use multiplier permissions, setting this to false can improve performance.
 
 **Archery and Fighting Options**
 
@@ -241,6 +241,8 @@ Last Updated Version: `Beta 1.1.4`
   This is purely cosmetic, changing these options does not change the actual hp you have.
 
   This only works if you have health.health-scaling set to true.
+
+* `keep-full-on-increase` - If enabled, a player with full health that has a health stat increase will keep full health. Players will not need to regenerate extra health if they were already at full health before their max health increased.
 
 ### **Strength**
 
