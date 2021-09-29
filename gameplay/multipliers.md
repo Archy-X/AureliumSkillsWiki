@@ -64,3 +64,18 @@ Removing a 2x multiplier from a player:
 When removing multipliers, you must use the exact text of the permission you added.
 {% endhint %}
 
+## Item and Armor Multipliers
+
+Multipliers can also be added to items and armor similar to stat modifiers. Item multipliers increase XP when holding the item. Armor multipliers increase XP when wearing the item. Multipliers can be either global or only for a specific skill.
+
+The commands used for item/armor multipliers:
+
+* /skills item/armor multiplier add &lt;target&gt; &lt;value&gt; \[lore\]
+* /skills item/armor multiplier remove &lt;target&gt;
+* /skills item/armor multiplier list
+* /skills item/armor multiplier removeall
+
+Use either item or armor in the command depending on the type of multiplier you want. Target can be either global or the name of a skill. The value of the multiplier is the percent more XP gained \(works the same as permission multipliers\).
+
+These multipliers are included in the /skills multiplier command, which can display skill-specific multipliers if they are different from the global multiplier.
+
