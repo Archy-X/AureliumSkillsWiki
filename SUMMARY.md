@@ -10,6 +10,7 @@
 * [Loot](config/loot.md)
 * [Sources](config/sources.md)
 * [Abilities](config/abilities.md)
+* [XP Requirements](config/xp-requirements.md)
 
 ## Gameplay
 
