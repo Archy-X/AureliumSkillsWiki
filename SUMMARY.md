@@ -2,7 +2,7 @@
 
 * [Welcome](README.md)
 
-## Configuration <a id="config"></a>
+## Configuration <a href="#config" id="config"></a>
 
 * [Main Config](config/main-config.md)
 * [Messages](config/messages.md)
@@ -19,6 +19,7 @@
   * [Health](gameplay/stats/health.md)
 * [Mana Abilities](gameplay/mana-abilities.md)
 * [Multipliers](gameplay/multipliers.md)
+* [Requirements](gameplay/requirements.md)
 
 ## Usage
 
@@ -30,4 +31,3 @@
 
 * [FAQ](other/faq.md)
 * [Incompatibilities](other/incompatibilities.md)
-
