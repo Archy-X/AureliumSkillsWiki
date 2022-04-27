@@ -4,7 +4,8 @@
 
 ## Configuration <a href="#config" id="config"></a>
 
-* [Main Config](config/main-config.md)
+* [Main Config](config/main-config/README.md)
+  * [MySQL](config/main-config/mysql.md)
 * [Messages](config/messages.md)
 * [Rewards](config/rewards.md)
 * [Loot](config/loot.md)
