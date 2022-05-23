@@ -4,13 +4,15 @@
 
 ## Configuration <a href="#config" id="config"></a>
 
-* [Main Config](config/main-config/README.md)
+* [Main Config](config/main-config.md)
   * [MySQL](config/main-config/mysql.md)
 * [Messages](config/messages.md)
 * [Rewards](config/rewards.md)
 * [Loot](config/loot.md)
 * [Sources](config/sources.md)
 * [Abilities](config/abilities.md)
+* [Menus](config/menus/README.md)
+  * [Menu Format Changes](config/menus/menu-format-changes.md)
 * [XP Requirements](config/xp-requirements.md)
 
 ## Gameplay
