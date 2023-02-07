@@ -22,9 +22,9 @@ Aliases: `/sk`, `/skills`, `/skill`. Any command that says /sk works with all th
 
 ### Leaderboard Commands
 
-`/sk top (page)` or `/sk top [skill] (page)` or `/sk top average (page)` - Shows the top players in a skill (Alias: `/skilltop`)
+`/sk top (page)` or `/sk top [skill] (page)` or `/sk top average (page)` - Shows the top players in a skill \(Alias: `/skilltop`\)
 
-`/sk rank` - Shows your skill rankings (Alias: `/skillrank`)
+`/sk rank` - Shows your skill rankings \(Alias: `/skillrank`\)
 
 ### Skill Commands
 
@@ -36,7 +36,7 @@ Aliases: `/sk`, `/skills`, `/skill`. Any command that says /sk works with all th
 
 ### Modifier Commands
 
-`/sk modifier add [player] [stat] [name] [value] (silent) (stack)` - Adds a stat modifier to a player. Setting `silent` to true will not send a feedback message. Setting `stack` to true will add the stat modifier even if the `name` is already used by appending a number to the end.
+`/sk modifier add [player] [stat] [name] [value] (silent)` - Adds a stat modifier to a player
 
 `/sk modifier remove [player] [name] (silent)` - Removes a specific stat modifier from a player
 
@@ -88,12 +88,6 @@ Aliases: `/sk`, `/skills`, `/skill`. Any command that says /sk works with all th
 
 `/sk help` - Shows help page
 
-### Profile Commands
-
-`/sk profile skills [player]` - Views the skill levels of another player. `player` is the username of the player you want to view skills for. This player does not have to be online.
-
-`/sk profile stats [player]` - Views the stat levels of another player.
-
 ### Admin Commands
 
 `/sk save` - Saves skill data
@@ -101,8 +95,6 @@ Aliases: `/sk`, `/skills`, `/skill`. Any command that says /sk works with all th
 `/sk updateleaderboards` - Updates and sorts the leaderboards
 
 `/sk reload` - Reloads the config, messages, menus, loot tables, action bars, boss bars, and health and lucks stats.
-
-`/sk transfer [playerFrom] [playerTo]` - Copies the player data from one player to another. `playerFrom` and `playerTo` must be valid UUIDs. The player data from `playerFrom` is not reset. Players do not have to be online for this to work.
 
 `sk resethealth` - Removes all AureliumSkills player health and luck attributes. Useful if you are uninstalling the plugin. This command can only be run through console and there should be no players online to work properly.
 
@@ -128,7 +120,7 @@ Aliases: `/sk`, `/skills`, `/skill`. Any command that says /sk works with all th
 
 ## Skill Name Commands
 
-`/[skill]` - Opens the level progression menu directly for a specific skill, can be enabled/disabled in config (ex: /farming, /archery, /healing)
+`/[skill]` - Opens the level progression menu directly for a specific skill, can be enabled/disabled in config \(ex: /farming, /archery, /healing\)
 
 ## Item Registry Commands
 
@@ -139,3 +131,4 @@ Aliases: `/sk`, `/skills`, `/skill`. Any command that says /sk works with all th
 `/sk item unregsiter [key]` - Unregisters an item
 
 `/sk item give [player] [key] (amount)` - Gives a registered item to a player. If the player does not have enough inventory space, the item will be added to the player's unclaimed items.
+
