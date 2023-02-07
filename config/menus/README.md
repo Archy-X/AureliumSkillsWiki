@@ -101,7 +101,7 @@ The display name and lore keys also contain built-in placeholders in a `{placeho
 
 #### Hex Colors
 
-Hex colors are supported in display names and lore using the `&#000000` format.
+Hex colors are supported in display names and lore using the `&#000000` format or using the [MiniMessage](https://docs.adventure.kyori.net/minimessage/format.html) format.
 
 ### Item meta
 
@@ -179,7 +179,17 @@ The `glow` key is a true/false value that adds the glowing enchantment effect to
 
 The `skull_meta` section can be used to add a custom skin texture to a player head item. The section must have one of three possible sub-keys, `uuid`, `base64`, or `url`.
 
-The `uuid` key is the UUID of the player's skin texture to use. The `base64` key is a base64 string of the texture. The `url` is the minecraft.net URL containing the texture.
+The `uuid` key is the UUID of the player's skin texture to use. The `base64` key is a base64 string of the texture. The `url` is the minecraft.net URL containing the texture.\
+
+
+Below is an example of using skull meta. You only need ONE of the three options.
+
+```
+skull_meta:
+  uuid: 6302a69e-9995-4f95-b2cd-d37b8ab875c9
+  base64: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxMTk3ZTUzYzFhYjExMmU2ODA3OWQzYzgzZmE0NzE0Yzc3YTgzZDA2MjFhMjlkNzYyZTk5ZTlmZWFhZTRkNSJ9fX0=
+  url: http://textures.minecraft.net/texture/621197e53c1ab112e68079d3c83fa4714c77a83d0621a29d762e99e9feaae4d5
+```
 
 #### Durability
 
