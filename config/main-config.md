@@ -8,7 +8,7 @@ This is a guide to the `config.yml` file found in the `plugins/AureliumSkills` f
 
 If an option you see in the config is missing, this page may not have been updated yet or the option may have been removed. You can find any config additions and changes in the full plugin [changelog](https://github.com/Archy-X/AureliumSkills/blob/master/Changelog.txt).
 
-Last Updated Version: `Beta 1.2.6`
+Last Updated Version: `Beta 1.3.13`
 
 ## General
 
