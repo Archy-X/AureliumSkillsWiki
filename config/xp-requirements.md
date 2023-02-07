@@ -20,13 +20,13 @@ Variables are also supported in expressions. In order to have a different XP req
 
 Custom variables are also supported, which allow you to label and organize the parts of your expression. Instead of using the numbers directly in the expression, you can turn it into a variable that is specified in its own key. In the default expression shown below, `multiplier` and `base` are examples of custom variables.
 
-```text
+```
 multiplier * (level - 2) ^ 2 + base
 ```
 
 As you can see, the numeric values of `multiplier` and `base` are specified as keys with the same name as the variable:
 
-```text
+```
 default:
   expression: 'multiplier * (level - 2) ^ 2 + base'
   multiplier: 100.0
@@ -41,7 +41,7 @@ You can create different XP requirements for each skill by adding a `skills.[ski
 
 Here is an example of Alchemy XP requirements that override the default:
 
-```text
+```
 default:
   expression: 'multiplier * (level - 2) ^ 2 + base'
   multiplier: 100.0
@@ -53,3 +53,22 @@ skills:
     base: 20.0
 ```
 
+## Direct List of Values
+
+Instead of using an equation, XP requirements can be defined using a direct list of values. Create a list called `values` under either the `default` section or a specific skill section.
+
+Here is an example of XP requirements using a value list:
+
+```
+default:
+  values:
+    - 100
+    - 200
+    - 300
+    - 500
+    - 750
+    - 1250
+    - 1720
+```
+
+The first value in the list is the XP required to get from level 1 to level 2.

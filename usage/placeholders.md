@@ -8,12 +8,7 @@ The placeholders that Aurelium Skills currently has, no need for an ecloud expan
 
 * `%aureliumskills_power%` - Combined skill level
 * `%aureliumskills_[skill]%` - Level for a certain skill (ex: %aureliumskills\_farming%)
-* `%aureliumskills_[skill]_roman%` - Level for a certain skill as a roman numeral
 * `%aureliumskills_[stat]%` - Level for a certain stat (ex: %aureliumskills\_health%)
-* `%aureliumskills_[stat]_int%` - Level for a certain stat rounded to an integer
-* `%aureliumskills_average%` - Average skill level
-* `%aureliumskills_average_int%` - Average skill level rounded to an integer
-* `%aureliumskills_average_1%` - Average skill level rounded to one decimal
 * `%aureliumskills_hp%` - Hp as an integer
 * `%aureliumskills_hp_1%` - Hp rounded to 1 decimal
 * `%aureliumskills_hp_2%` - Hp rounded to 2 decimals
