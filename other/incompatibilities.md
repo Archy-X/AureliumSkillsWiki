@@ -9,7 +9,7 @@ description: Server and plugin incompatibilities
 The following server software will not receive support. Although the plugin may work, it is prone to issues and deviates from the mechanics of Spigot/Paper.
 
 * **CraftBukkit** - Action bar will not work
-* **Modded hybrid servers \(Mohist, Magma, CatServer\)** - Modded environments do not work well with Bukkit plugins in general
+* **Modded hybrid servers (Mohist, Magma, CatServer)** - Modded environments do not work well with Bukkit plugins in general
 * **Minehut** - Minehut servers have an error that makes commands not work. This is a Minehut issue that I can't fix.
 
 ## Incompatible Server Modes
@@ -19,4 +19,4 @@ The following server software will not receive support. Although the plugin may 
 ## Incompatible Plugins
 
 * **LoreAttributesRecoded** - Will reset health when doing certain actions. Can be fixed by disabling the health in that plugin.
-
+* **CustomEnchants** - Will reset health when doing certain actions.
