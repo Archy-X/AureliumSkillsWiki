@@ -16,7 +16,7 @@ Once the server is restarted, MySQL should be successfully working. Aurelium Ski
 
 ## Migrating Data From YAML
 
-Enabling MySQL along will not migrate player data from the default YAML storage method. To migrate data, a few extra steps are required:
+Enabling MySQL alone will not migrate player data from the default YAML storage method. To migrate data, a few extra steps are required:
 
 1. While still on YAML, create a backup of the player data using `/skills backup save`
 2. Shut down the server
