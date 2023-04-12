@@ -203,6 +203,18 @@ NBT data can be added to an item using the `nbt` section. This section supports 
 
 The `key` key can be used in an item section to use an item in the item registry. Any item can be registered in game using `/skills item register`. This is used instead of defining `material` and other meta. This can be convenient when an item has already been created in game or is too complex.
 
+### Custom Model Data
+
+Custom model data can be added to items within the nbt section like as follows:
+
+```
+some_item:
+  nbt:
+    CustomModelData: 123
+```
+
+This follows the exact format Minecraft uses to store custom model data on items.
+
 ## Click Actions
 
 Click actions are used to define custom functionality when a player clicks an item in the menu. This includes executing a command, closing the menu, opening another menu, and more.
