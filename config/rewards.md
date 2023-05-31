@@ -38,7 +38,7 @@ The `start` value is the skill level the reward should first appear at; this sho
 
 The `interval` is the difference between consecutive rewards; an interval of 2 means the reward appears every other level (2, 4, 6,...). The default `interval` is 1.
 
-The `stop` number is the maximum level the should appear at, which may or may not be a level the reward would actually be at calculated by the `start` and `interval`. It simply means that there will only be that reward below or at the specified `stop` level. This defaults to the max skill level defined by the `max-level` option of that skill in config.yml.
+The `stop` number is the maximum level the reward should appear at, which may or may not be a level the reward would actually be at calculated by the `start` and `interval`. It simply means that there will only be that reward below or at the specified `stop` level. This defaults to the max skill level defined by the `max-level` option of that skill in config.yml.
 
 ### Levels section
 
@@ -202,4 +202,4 @@ Money reward messages are automatically handled through the `menus.level_progres
 
 ## Learn more
 
-Still confused or syntax not working? Try looking over the [example rewards file](https://github.com/Archy-X/AureliumSkills/blob/master/src/main/resources/rewards/example\_rewards.yml)
+Still confused or syntax not working? Try looking over the [example rewards file](https://github.com/Archy-X/AureliumSkills/blob/master/bukkit/src/main/resources/rewards/example\_rewards.yml)
