@@ -4,7 +4,15 @@ description: Guide to configuring loot tables
 
 # Loot
 
-**This guide is for Aurelium Skills versions Beta 1.2.0 and higher, for older versions see the** [**old wiki**](https://github.com/Archy-X/AureliumSkills/wiki/Loot-Tables)****
+## Overview
+
+The Fishing and Excavation skills have abilities that can drop custom loot, which is configured in the `loot` folder. For Fishing, the `treasure_hunter` ability corresponds to the rare pool and the `epic_catch` ability gives items from the epic loot pool. The `metal_detector` ability in Excavation gives rare loot while the `lucky_spades` ability gives epic loot.
+
+{% hint style="info" %}
+The drop chances for the abilities are configured separately in `abilities_config.yml`, see the [Abilities](abilities.md) page for more details.
+{% endhint %}
+
+Beyond changing the items dropped for these abilities, the files enable adding custom loot pools unrelated to abilities, executing commands as loot, as well as creating new loot tables for other skills (Foraging and Mining).
 
 ## File Structure
 
@@ -22,6 +30,7 @@ Keys:
 * `selection_priority` - The order the pools are potentially selected, a higher priority means that it will attempt to select before lower priority pools (defaults to 1)
 * `override_vanilla_loot` - Whether the regular loot from the block should be replaced with the selected loot. Does not apply to fishing (defaults to 1).
 * `chance_per_luck` - The amount the chance of selecting the pool should increase by per Luck stat level the player has (0.1 = +0.1% chance per Luck) (defaults to 0)
+* `require_open_water` - For Fishing, only give items in the pool when the player fishes in open water (5x5x5 volume of water) when set to true. This prevents giving loot when using most AFK fish farms (defaults to false).
 
 Each pool has a loot section containing a map list of the loot entries. This uses the same type of syntax as rewards, which is explained [here](https://wiki.aurelium.dev/skills/config/rewards#yaml-syntax).
 
