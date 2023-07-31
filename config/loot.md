@@ -158,5 +158,5 @@ The way loot is selected is fairly straightforward:
 
 1. The loot table is determined by skill that corresponds to the action the player does. For block based loot, the block must be a source for a supported skill (foraging, mining, excavation).
 2. A loot pool is selected from the loot table starting from the highest priority loot pool. Whether pool is selected is base on the pool's base\_chance and any added chances. If a pool is not selected, the pool with the next highest selection priority will be attempted. If no loot pool gets selected, the below steps do not apply.
-3. A single loot entry is selected from the pool based on the weight of the entry. A higher weight makes it more likely for it to be selected.
+3. A single loot entry is selected from the pool based on the weight of the entry. A higher weight makes it more likely for it to be selected. The exact chance is calculated by `weight / sum of all weights in pool`.
 
