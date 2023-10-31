@@ -28,7 +28,3 @@ Yes, find the dependency info at the bottom of the [README](https://github.com/A
 
 To uninstall, put the plugin back and run `skills resethealth` in the console when no players are online. Then immediately remove the plugin and restart.
 
-### **Why are AureliumSkills commands not working on my Minehut server?** 
-
-This is an issue with Minehut's server software, there is nothing I can do on my end to fix it. This issue is not present on normal Spigot/Paper server jars. You can either send them this \([https://pastebin.com/1ZSeFy7K](https://pastebin.com/1ZSeFy7K)\) error that is causing it and hope they fix it or preferably get a proper server host that allows you full file and console access
-

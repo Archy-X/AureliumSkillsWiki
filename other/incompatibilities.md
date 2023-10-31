@@ -10,7 +10,6 @@ The following server software will not receive support. Although the plugin may 
 
 * **CraftBukkit** - Action bar will not work
 * **Modded hybrid servers (Mohist, Magma, CatServer)** - Modded environments do not work well with Bukkit plugins in general
-* **Minehut** - Minehut servers have an error that makes commands not work. This is a Minehut issue that I can't fix.
 
 ## Incompatible Server Modes
 
