@@ -4,6 +4,10 @@ description: Guide to creating custom rewards
 
 # Rewards
 
+{% hint style="danger" %}
+This wiki is no longer maintained and only for Aurelium Skills Beta versions. Visit the [new wiki](https://app.gitbook.com/o/-Mf1Cqap-T455k8cLLbf/s/bg3Pz6yyAsvWyzstdFCd/) for AuraSkills 2.0+.
+{% endhint %}
+
 ## Introduction
 
 Rewards are a powerful way of performing actions or giving things when a player levels skills. There are many different types of rewards, including stats, commands, permissions, items, and money. Rewards also support custom messages in menus and level-up chat messages.

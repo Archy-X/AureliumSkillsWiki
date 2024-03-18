@@ -4,11 +4,15 @@ description: Guide to the config.yml file
 
 # Main Config
 
+{% hint style="danger" %}
+This wiki is no longer maintained and only for Aurelium Skills Beta versions. Visit the [new wiki](https://app.gitbook.com/o/-Mf1Cqap-T455k8cLLbf/s/bg3Pz6yyAsvWyzstdFCd/) for AuraSkills 2.0+.
+{% endhint %}
+
 This is a guide to the `config.yml` file found in the `plugins/AureliumSkills` folder.
 
 If an option you see in the config is missing, this page may not have been updated yet or the option may have been removed. You can find any config additions and changes in the full plugin [changelog](https://github.com/Archy-X/AureliumSkills/blob/master/Changelog.txt).
 
-Last Updated Version: `Beta 1.2.6`
+Last Updated Version: `Beta 1.3.13`
 
 ## General
 
@@ -46,6 +50,7 @@ Last Updated Version: `Beta 1.2.6`
 * `update-period` - How often the action bar should update, in ticks (Increase this value if action bar is causing lag)
 * `round-xp` - If enabled, current xp will be rounded to an integer.
 * `placeholder-api` - Whether PlaceholderAPI placeholders should be replaced in the action bar, given that you have PlaceholderAPI
+* `use-suffix` - Whether to format the current player's XP with number suffixes (k, m, etc). Only applies if `xp` is set to true.
 
 ### Boss Bar
 
@@ -56,6 +61,7 @@ Last Updated Version: `Beta 1.2.6`
 * `stay-time` - How long the boss bar should stay up after not gaining xp, in ticks
 * `update-every` - Controls how often the boss bar should update when gaining xp consecutively, increase if having lag issues
 * `round-xp` - If enabled, the current xp will be rounded to an integer.
+* `use-suffix` - Whether to format the current player's XP with number suffixes (k, m, etc).
 * `format` - The format list allows you to change the boss bar color and style for each skill:
   * Format: '\[SKILL] \[COLOR] \[STYLE]'
   * Available colors are BLUE, GREEN, PINK, PURPLE, WHITE, RED, and YELLOW
@@ -169,6 +175,7 @@ Last Updated Version: `Beta 1.2.6`
   * `prevent-tool-use` - Whether block breaking should be blocked when a player does not meet a requirement
   * `prevent-weapon-use` - Whether attacking entities should be blocked when a player does not meet a requirement
   * `prevent-block-place` - Whether block placing should be blocked when a player does not meet a requirement
+  * `prevent-interact` - Whether interacting (right clicking) should be blocked when a player does not meet a requirement
   * `global` - Define item requirements that should apply to every item of that type. Format: - '\[material] \[skill\_1]:\[level\_1] \[skill\_2]:\[level\_2] ...'
 * `armor:`
   * `prevent-armor-equip` - Whether armor should be unable to be equipped when a player does not meet a requirement
@@ -195,6 +202,8 @@ Last Updated Version: `Beta 1.2.6`
 
 * `enabled` - Whether automatic backups should be taken on server shutdown
 * `minimum-interval-hours` - The minimum interval, in hours, between automatic backups. Automatic backups will only be taken at least this amount of hours after the last one.
+
+`save-blank-profiles` - If false, player data of players who have not leveled any skills or gained any XP will not be saved into storage.
 
 ## Skill Options
 
@@ -224,10 +233,15 @@ Last Updated Version: `Beta 1.2.6`
 
 * `give-xp-on-takout` - Alchemy option to reward XP when the potion is taken out of the brewing stand.
 * `give-xp-on-potion-combat` - Give alchemy XP when using splash/lingering potions to kill/damage mobs (follows Archery options and XP source values)
+* `ignore-custom-potions` - If true, abilities will not be applied on potions with custom effects.
 
 **Healing Options**
 
 * `exclude-negative-potions` - Disable options that give negative effects from giving Healing XP
+
+#### Forging Options
+
+* `blocked-grindstone-enchants` - A list of enchantments that should not give grindstone XP. Useful for preventing irremovable curses from custom enchant plugins from allowing XP duping.
 
 ## Stat Options
 

@@ -4,6 +4,10 @@ description: Guide to configuring loot tables
 
 # Loot
 
+{% hint style="danger" %}
+This wiki is no longer maintained and only for Aurelium Skills Beta versions. Visit the [new wiki](https://app.gitbook.com/o/-Mf1Cqap-T455k8cLLbf/s/bg3Pz6yyAsvWyzstdFCd/) for AuraSkills 2.0+.
+{% endhint %}
+
 ## Overview
 
 The Fishing and Excavation skills have abilities that can drop custom loot, which is configured in the `loot` folder. For Fishing, the `treasure_hunter` ability corresponds to the rare pool and the `epic_catch` ability gives items from the epic loot pool. The `metal_detector` ability in Excavation gives rare loot while the `lucky_spades` ability gives epic loot.

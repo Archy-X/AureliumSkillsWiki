@@ -4,6 +4,10 @@ description: List of plugin commands
 
 # Commands
 
+{% hint style="danger" %}
+This wiki is no longer maintained and only for Aurelium Skills Beta versions. Visit the [new wiki](https://app.gitbook.com/o/-Mf1Cqap-T455k8cLLbf/s/bg3Pz6yyAsvWyzstdFCd/) for AuraSkills 2.0+.
+{% endhint %}
+
 Syntax: `[this]` indicates a required argument, `(this)` is an optional argument. See [Permissions](https://github.com/Archy-X/AureliumSkills/wiki/Permissions) for more details about permissions.
 
 ## Skill Commands
