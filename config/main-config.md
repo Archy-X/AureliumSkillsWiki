@@ -5,7 +5,7 @@ description: Guide to the config.yml file
 # Main Config
 
 {% hint style="danger" %}
-This wiki is no longer maintained and only for Aurelium Skills Beta versions. Visit the [new wiki](https://app.gitbook.com/o/-Mf1Cqap-T455k8cLLbf/s/bg3Pz6yyAsvWyzstdFCd/) for AuraSkills 2.0+.
+This wiki is no longer maintained and is only for Aurelium Skills Beta versions. Visit the [new wiki](https://app.gitbook.com/o/-Mf1Cqap-T455k8cLLbf/s/bg3Pz6yyAsvWyzstdFCd/) for AuraSkills 2.0+.
 {% endhint %}
 
 This is a guide to the `config.yml` file found in the `plugins/AureliumSkills` folder.
